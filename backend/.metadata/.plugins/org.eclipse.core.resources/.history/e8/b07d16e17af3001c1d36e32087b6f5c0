@@ -1,0 +1,13 @@
+package com.jst.hrms;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class JstMenuApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(JstMenuApplication.class, args);
+	}
+
+}

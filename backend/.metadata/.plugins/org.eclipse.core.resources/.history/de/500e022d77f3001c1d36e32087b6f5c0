@@ -1,0 +1,11 @@
+package com.jst.hrms.Entity;
+
+import javax.persistence.Entity;
+
+@Entity
+public class MenuEntity {
+     private Integer id;
+     private String name;
+     private float price;
+     private String type;
+}
